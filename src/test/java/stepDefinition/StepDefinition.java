@@ -79,8 +79,8 @@ public class StepDefinition extends BaseUtil {
         }
     }
 
-    @Then("I see the data with Price range {int} to {int}")
-    public void i_see_the_data_with_price_range_to(Integer int1, Integer int2) {
+    @Then("I see the data with Price range $101 to $1000")
+    public void i_see_the_data_with_price_range_to() {
 
         List<WebElement> priceData = hp.getPriceInTable();
         for (int i = 0; i < priceData.size(); i++) {

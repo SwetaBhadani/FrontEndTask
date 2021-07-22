@@ -17,7 +17,7 @@ Feature: Automate the UI for COINMARKETCAP
         | $1B - $10B     | $101 - $1,000 |
       And I click on Show results
       Then I see the data with Market Cap 1B to 10B
-      And I see the data with Price range 101 to 1000
+      And I see the data with Price range $101 to $1000
 
 
 
